@@ -1,20 +1,20 @@
 {
-    "name": "Kc-Launcher",
-    "preductname": "KC Launcher",
-    "version": "1.0.2",
-    "description": "Launcher Mincraft pour le serveur KCDC",
+    "name": "CraftConnect",
+    "preductname": "CraftConnect",
+    "version": "2.0.0",
+    "description": "Launcher CraftConnect",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "CraftConnect, Inc.",
+        "email": "contact@craftconnect.fr",
+        "url": "https://github.com/craftconnect"
     },
     "url": "https://process.mtxserv.com",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/DevCode1252/KC-Launcher/refs/heads/master/logo.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/DevCode1252/KC-Launcher/refs/heads/master/logo.jpg"
     },
     "license": "CCANC",
     "nodemonConfig": {
