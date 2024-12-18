@@ -65,7 +65,7 @@ class Index {
                 generateUpdatesFilesForAllChannels: false,
                 appId: preductname,
                 productName: preductname,
-                copyright: 'Copyright © 2020-2023 Luuxis',
+                copyright: 'Copyright © 2020-2024 Lucas',
                 artifactName: "${productName}-${os}-${arch}.${ext}",
                 extraMetadata: { main: 'app/app.js' },
                 files: ["app/**/*", "package.json", "LICENSE.md"],
@@ -106,15 +106,6 @@ class Index {
                     icon: "./app/assets/images/icon.png",
                     target: [{
                         target: "AppImage",
-                        arch: "x64"
-                    }, {
-                        target: "deb",
-                        arch: "x64"
-                    }, {
-                        target: "tar.gz",
-                        arch: "x64"
-                    }, {
-                        target: "zip",
                         arch: "x64"
                     }]
                 }
