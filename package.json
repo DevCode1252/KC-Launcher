@@ -1,19 +1,19 @@
 {
     "name": "CraftConnect",
     "preductname": "CraftConnect",
-    "version": "2.0.7",
-    "description": "Launcher CraftConnect",
+    "version": "4.0.0",
+    "description": "Launcher Mincraft pour le serveur CraftConnect",
     "main": "src/app.js",
     "author": {
-        "name": "CraftConnect, Inc.",
-        "email": "contact@craftconnect.fr",
-        "url": "https://github.com/craftconnect"
+        "name": "craftconnect, Inc.",
+        "email": "contact@luuxis.fr",
+        "url": "https://github.com/luuxis"
     },
     "url": "https://process.mtxserv.com",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
-        "build": "node build.js --obf=true --build=platform",
+        "build": "node build.js --obf=false --build=platform",
         "icon": "node build.js --icon=https://raw.githubusercontent.com/DevCode1252/process/refs/heads/main/7.png"
     },
     "license": "CCANC",
@@ -22,19 +22,19 @@
         "ignore": "**/test"
     },
     "dependencies": {
-        "electron-updater": "^6.1.8",
-        "minecraft-java-core": "^3.10.4",
-        "node-bdd": "^2.0.4",
+        "electron-updater": "^6.1.4",
+        "minecraft-java-core": "^3.8.1",
+        "node-bdd": "^2.0.3",
         "node-fetch": "^2.7.0",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "electron": "^30.0.9",
-        "electron-builder": "^24.13.3",
+        "electron": "^27.0.4",
+        "electron-builder": "^24.6.4",
         "javascript-obfuscator": "^4.1.0",
-        "jimp": "^0.22.12",
-        "nodemon": "^3.1.2",
+        "jimp": "^0.22.10",
+        "nodemon": "^3.0.1",
         "png2icons": "^2.0.1"
     },
     "repository": {
